@@ -56,9 +56,9 @@
   <div class="posts-list">
     
       <section>
-        <a href="/2019/01/07/hello-world/">
+        <a href="/2019/01/18/springboot-write-json-xml/">
           <h3 class="post-head">
-            Hello World
+            springboot-write-json-xml
           </h3>
         </a>
         
@@ -66,13 +66,26 @@
           
             
               
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+                <h3 id="1-返回json"><a href="#1-返回json" class="headerlink" title="1. 返回json"></a>1. 返回json</h3><p>springMVC中，默认返回的json格式<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyController</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@RequestMapping</span>(<span class="string">"/thing"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> MyThing <span class="title">thing</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> ObjectRestResponse.ok(<span class="string">"F_RA1"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
               
           
         </div>
         <div class="post-meta">
-          <i class="fa fa-calendar" aria-hidden="true"></i> <time>2019/01/07</time>
+          <i class="fa fa-calendar" aria-hidden="true"></i> <time>2019/01/18</time>
           
+          
+            <span class="seperator">|</span>
+             
+                <i class="fa fa-tags" aria-hidden="true"></i>
+              
+             
+  <a href="/tags/#springboot" class="tag">springboot</a>
+
+  <a href="/tags/#json" class="tag">json</a>
+
+  <a href="/tags/#xml" class="tag">xml</a>
+
+
           
         </div>
       </section>
