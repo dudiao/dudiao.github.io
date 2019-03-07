@@ -8,14 +8,14 @@ subtitle:
 description:
 keywords:
 author: Dudiao
-language:
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://dudiao.xyz
 root: /
-permalink: :title/
+permalink: posts/:title/
 permalink_defaults:
 
 # Directory
@@ -81,3 +81,27 @@ deploy:
   type: git
   repo: https://github.com/dudiao/dudiao.github.io.git
   branch: master
+
+# 博客压缩  
+html_minifier:
+  enable: true
+  ignore_error: false
+  exclude:
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
