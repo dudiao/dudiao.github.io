@@ -81,20 +81,3 @@ deploy:
   type: git
   repo: https://github.com/dudiao/dudiao.github.io.git
   branch: master
- 
-# Gitment
-# Introduction: https://imsun.net/posts/gitment-introduction/
-gitment:
-  enable: true
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
-  count: true # Show comments count in post meta area
-  lazy: true # Comments lazy loading with a button
-  cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by theme
-  github_user: dudiao
-  github_repo: https://github.com/dudiao/dudiao.github.io.git
-  client_id: 0275252be45f052bdf9f
-  client_secret: 7002492c6669f440b5788e192786126b991022cc
-  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
-
