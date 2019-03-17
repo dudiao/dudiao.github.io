@@ -1,8 +1,6 @@
 ---
 title: springboot中redis工具类并发使用时异常
 date: 2019-03-06 23:32:11
-categories:
-  - tech
 tags:
   - redis
   - springboot
