@@ -1,10 +1,9 @@
 ---
 layout: about
-title: about
+title: 关于我
 ---
 
-This is about.
+Java后端
 
-
-
-My name is dudiao.
+- 邮箱：idudiao@163.com
+- Github：https://github.com/dudiao
