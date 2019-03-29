@@ -5,3 +5,9 @@ db.json
 node_modules/
 public/
 .deploy*/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
