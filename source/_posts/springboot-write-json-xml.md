@@ -2,7 +2,7 @@
 title: springboot兼容返回json和xml
 date: 2019-01-18 17:00:54
 categories:
-  - tech
+  - 技术
 tags:
   - springboot
   - json

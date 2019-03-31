@@ -56,6 +56,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  技术: tech
 tag_map:
   并发: concurrent
 
