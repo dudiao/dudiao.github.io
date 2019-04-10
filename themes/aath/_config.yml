@@ -1,6 +1,6 @@
 
 # html lang
-language: zh-CN
+language: en
 
 # main menu navigation
 menu:
@@ -19,5 +19,3 @@ stylesheets:
 # scripts loaded in the end of the body
 scripts:
 - /js/script.js
-
-search: true

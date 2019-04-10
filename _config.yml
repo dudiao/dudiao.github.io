@@ -56,6 +56,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  技术: tech
 tag_map:
   并发: concurrent
 
@@ -83,7 +84,7 @@ deploy:
   repo: https://github.com/dudiao/dudiao.github.io.git
   branch: master
 
-# 博客压缩  
+# 博客压缩
 html_minifier:
   enable: true
   ignore_error: false
@@ -91,14 +92,14 @@ html_minifier:
 css_minifier:
   enable: true
   exclude:
-    - '*.min.css'
+  - '*.min.css'
 js_minifier:
   enable: true
   mangle: true
   output:
   compress:
   exclude:
-    - '*.min.js'
+  - '*.min.js'
 image_minifier:
   enable: true
   interlaced: false
